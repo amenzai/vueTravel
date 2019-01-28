@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     getHomeInfo () {
-      axios.get('http://amenzai.vastsum.net/api/quna/index?city=' + this.city)
+      axios.get('http://eru.vastsum.net/api/quna/index?city=' + this.city)
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {

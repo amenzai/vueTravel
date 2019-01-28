@@ -34,7 +34,7 @@ export default {
   },
   methods: { // http://192.168.17.221
     getDetailInfo () {
-      axios.get('http://amenzai.vastsum.net/api/quna/detail', {
+      axios.get('http://eru.vastsum.net/api/quna/detail', {
         params: {
           id: this.$route.params.id
         }
